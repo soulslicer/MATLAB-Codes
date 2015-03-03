@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/eucsbademo.dir/eucsbademo.o CMakeFiles/eucsbademo.dir/imgproj.o CMakeFiles/eucsbademo.dir/readparams.o  -o eucsbademo  -L..  ../libsba.dylib -framework Accelerate -Wl,-rpath,.. 

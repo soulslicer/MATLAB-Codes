@@ -1,0 +1,1 @@
+/usr/bin/cc   -dynamiclib -Wl,-headerpad_max_install_names  -o libsba.dylib -install_name /Users/user/Documents/MATLAB/EE4212/q4/external/sba/libsba.dylib CMakeFiles/sba.dir/sba_levmar.o CMakeFiles/sba.dir/sba_levmar_wrap.o CMakeFiles/sba.dir/sba_lapack.o CMakeFiles/sba.dir/sba_crsm.o CMakeFiles/sba.dir/sba_chkjac.o -framework Accelerate -framework Accelerate 
