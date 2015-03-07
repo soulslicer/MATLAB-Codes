@@ -10,11 +10,12 @@ function test_fun(handle, event, node)
     disp('Message');
     
     
-    I=rgb2gray(I); % convert the image to grey 
-
-    A = fft2(double(I)); % compute FFT of the grey image
-    A1=fftshift(A); % frequency scaling
     
-    imshow(A1);
+%     I=rgb2gray(I); % convert the image to grey 
+% 
+%     A = fft2(double(I)); % compute FFT of the grey image
+%     A1=fftshift(A); % frequency scaling
+%     
+    %imshow(A1);
      %assignin(ws, 'var', msg);
 end

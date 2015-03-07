@@ -162,4 +162,6 @@ distance = sqrt(distred+distgreen+distblue);
 lb = reshape(label_vector,size(red));
 %
 
-
+x = [3 3 3 3;3 3 3 3;3 3 3 3;3 3 3 3]
+y = [2 2; 2 2]
+x(2:3,2:3) = y
